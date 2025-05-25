@@ -1,0 +1,71 @@
+html, body{
+    width: 99%;
+    height: 18%;
+}
+body{
+    font-family: lora;
+}
+.titolo{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.bottoni{
+    font-size: 20px;
+    display: block;
+    width: 270px;
+    height: 60px;
+    margin: 5px auto;
+    border-color: darkgrey;
+    background-color: rgb(100,100,100);
+    color: #ddd;
+}
+img{
+    width: 20px;
+    height: 19px;
+}
+.impostazioni{
+    padding: 5px auto;
+    margin: auto;
+}
+.tornaIndietro{
+    position: relative;
+    width: 99%;
+    height: 74vh;
+}
+.tornaIndietroimp{
+    position: relative;
+    width: 99%;
+    height: 85vh;
+}
+.done{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 270px;
+    height: 60px;
+    border-color: darkgrey;
+    background-color: rgb(100,100,100);
+    color: #ddd;
+}
+.parteBassa{
+    position: relative;
+    width: 99%;
+    height: 40vh;
+}
+.crediti{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.linguabot{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-color: darkgrey;
+    background-color: rgb(100,100,100);
+    color: #ddd;
+}

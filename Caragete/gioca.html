@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Gioca</title> <!-- nome del titolo della scheda -->
+        <link rel="stylesheet" href="gioco.css"> <!-- collegamento con la scheda di css -->
+        <script src="funzioni.js"></script>  <!-- collegamento con la scheda di javascript -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font della pagina preso da google -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="n-giocatori">Scegliere quanti giocatori</h1>
+
+        <!-- lutente decide il numero di giocatori -->
+
+        <table border="1px" class="selezione-giocatori">
+            <tr>
+                <td style="padding: 0;"><button class="casella1" onclick="sceltaGiocatore();"></button></td>
+                <td style="padding: 0;"><button class="casella2" onclick="dueGiocatori();"></button></td> 
+            </tr>
+        </table>
+
+        <!-- per tornare al menu iniziale -->
+
+        <button class="done" onclick="mainmenu();">Torna indietro</button>
+
+    </body>
+</html>
