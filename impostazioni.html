@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Impostazioni</title> <!-- nome del titolo della scheda -->
+        <link rel="stylesheet" href="impostazioni.css"> <!-- collegamento a css -->
+        <script src="funzioni.js"></script> <!-- collegamento a js -->
+        <script src="impostazioni.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- il font della pagina preso da google-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    </head>
+    <body class="sfondo-blur">
+        <p>impostazioni</p>
+        <table class="impostazioni">
+            <tr>
+                <td class="cel1">
+                    <h1>Volume</h1>
+                    <audio id="audio" loop autoplay>
+                        <source src="audio/musica.mp3" type="audio/mp3">
+                    </audio>
+                </td>
+                <td>
+                    <input type="range" id="regolatoreVolume" min="0" max="1" step="0.1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Cambia lingua</h1>
+                </td>
+                <td>
+                    <button class="linguabot" onclick="lingua();"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Risoluzione</h1>
+                </td>
+                <td>
+                    <button class="bottoneTendina" onclick="Tendina();" id="bottonetendina">Seleziona dimensione</button>                  
+                </td>
+            </tr>
+        </table>
+        
+        
+        
+        <button class="done" onclick="mainmenu();">Torna indietro</button>
+    </body>
+</html>
