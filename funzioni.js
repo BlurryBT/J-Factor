@@ -5,7 +5,7 @@ function impostazioni() {
     location.href = "impostazioni.html";
 }
 function mainmenu() {
-    location.href = "mainmenu.html";
+    location.href = "index.html";
 }
 function info() {
     location.href = "info.html";
