@@ -413,7 +413,7 @@ function keys(){
                 bottoneMenu.style.top = "75%";
                 bottoneMenu.style.transform = "translate(-50%, -30%)";
                 bottoneMenu.addEventListener("click", function(){
-                    location.href = "../mainmenu.html";
+                    location.href = "../index.html";
                 });
                 // bottone per tornare indietro dopo il menu
                 const bottoneTorna = document.createElement('button');
